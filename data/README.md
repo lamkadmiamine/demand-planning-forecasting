@@ -1,5 +1,3 @@
-# Data
-
 # Data Description
 
 ## Raw Data
