@@ -13,10 +13,16 @@ This section explores the main characteristics of the demand data:
 - Frequency of zero-demand periods
 - Seasonality and temporal patterns across SKUs
 
+![EDA1](https://github.com/lamkadmiamine/demand-planning-forecasting/blob/main/assets/Croissance_Annuelle_par_Categorie.png)
+
+![EDA2](https://github.com/lamkadmiamine/demand-planning-forecasting/blob/main/assets/Ventes_Moyenne_avecETsans_Promo.png)
+
 ## 1.2 Feature Engineering
 
 Feature engineering aims to enrich the dataset with explanatory variables that
 capture demand dynamics, seasonality, price effects and promotional impacts.
+
+![FE1](https://github.com/lamkadmiamine/demand-planning-forecasting/blob/main/assets/Promo_Impact_boxplot.png)
 
 ### 1.2.1 Engineered Feature Categories
 
