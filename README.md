@@ -7,8 +7,5 @@ Accurate demand forecasting across a large portfolio of SKUs is a key challenge 
 ![Forecasting Pipeline](assets/SKU_1.png)
 
 
-![Forecasting Pipeline](assets/Promo_Impact_boxplot.png)
-
-
 
 
