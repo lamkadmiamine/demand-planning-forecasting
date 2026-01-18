@@ -4,4 +4,7 @@ In a context of high uncertainty, demand planning aims to estimate customer dema
 
 Accurate demand forecasting across a large portfolio of SKUs is a key challenge in supply chain planning. This project focuses on building scalable machine learning models capable of forecasting demand for multiple SKUs simultaneously, while capturing seasonality, trends and demand variability.
 
+![Forecasting Pipeline](assets/SKU_1.png)
+
+
 
