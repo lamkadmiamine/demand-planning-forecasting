@@ -7,7 +7,7 @@ The initial dataset is based on a processed version of the M5 forecasting datase
 Due to memory and RAM constraints, the analysis and modeling were performed on a single store (`CA_1`).
 This choice allows focusing on the full modeling pipeline while preserving the multi-SKU forecasting complexity within a realistic industrial constraint.
 
-![Forecasting Pipeline](assets/Evolution_Mensuel_par_Categorie.png)
+![Data](assets/Evolution_Mensuel_par_Categorie.png)
 
 
 ## Data Preparation
