@@ -9,6 +9,11 @@ This choice allows focusing on the full modeling pipeline while preserving the m
 
 ![Data](assets/Evolution_Mensuel_par_Categorie.png)
 
+<p align="center">
+  <img src="assets/Evolution_Mensuel_par_Categorie.png" width="700">
+</p>
+
+
 
 
 ## Data Preparation
