@@ -7,11 +7,7 @@ The initial dataset is based on a processed version of the M5 forecasting datase
 Due to memory and RAM constraints, the analysis and modeling were performed on a single store (`CA_1`).
 This choice allows focusing on the full modeling pipeline while preserving the multi-SKU forecasting complexity within a realistic industrial constraint.
 
-![Data](assets/Promo_Impact_boxplot.png)
-
-<p align="center">
-  <img src="[assets/Evolution_Mensuel_par_Categorie.png](https://github.com/lamkadmiamine/demand-planning-forecasting/blob/main/assets/Evolution_Mensuel_par_Categorie.png)" width="700">
-</p>
+![Forecasting Pipeline](assets/Promo_Impact_boxplot.png)
 
 
 
