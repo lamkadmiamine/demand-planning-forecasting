@@ -40,9 +40,7 @@ This indicates that **most of the predictive signal is already captured by featu
 ### ⚠️ Limitations
 
 * Monthly aggregation may hide short-term demand signals
-* No hierarchical reconciliation across Store / Department / Category
 * Cluster-based modeling increases complexity with limited performance gains
-* Promotions are treated as known future inputs
 
 ### 🚀 Future Improvements
 
