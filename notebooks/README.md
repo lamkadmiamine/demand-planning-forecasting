@@ -77,3 +77,27 @@ The following feature groups are created:
 - **Rolling statistics**
 - **Price-related features**
 - **Promotion-related features**
+
+
+# 2. SKUs Forecasting
+
+This file contains the **orchestration layer** of the project:
+
+- Execute the full forecasting pipeline
+- Run experiments in a reproducible way
+- Compare multiple forecasting approaches on a common test set
+
+All **model definitions** are implemented in the `models/` folder.
+No modeling logic is duplicated here.
+
+- Loads the prepared monthly dataset
+- Applies strict temporal train / validation / test splits
+- Trains multiple model families:
+  - Classical ML models
+  - Cluster-based hybrid models
+  - Deep Learning (LSTM)
+- Evaluates all models using consistent metrics
+- Produces a unified benchmark table
+
+The notebook acts as the **entry point** for model comparison.
+
