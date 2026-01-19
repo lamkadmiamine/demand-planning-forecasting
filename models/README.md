@@ -1,11 +1,7 @@
 # Models
 
-This folder contains all **model definitions** used in the project
-**"Multi-SKU Demand Forecasting using AI models"**.
+This folder contains all **model definitions** used in this project : 
 
-## 🎯 Purpose
-
-The goal of this folder is to:
 - Centralize all forecasting models
 - Ensure clean separation between **model definition** and **model execution**
 - Enable fair benchmarking across different model families
@@ -40,6 +36,4 @@ specialized models per demand regime (e.g. smooth, intermittent, seasonal).
 - **models/** → model architecture & logic only
 - **notebooks/** → orchestration, training, evaluation
 - **results/** → metrics, comparison and interpretation
-
-This structure makes the project scalable, testable and production-ready.
 
