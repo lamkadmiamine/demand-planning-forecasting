@@ -15,3 +15,41 @@ multiple error metrics and execution time indicators.
 | LSTM                      | 26.97 | 71.58 | 77.49 | 0.654 | 483.22        | 1.64             |
 
 
+Tree-based Machine Learning models clearly outperform Deep Learning approaches for this **multi-SKU monthly demand forecasting** task.
+All classical ML models achieve similar error levels **(WAPE ≈ 0.27)**, while the LSTM model performs significantly worse due to high data sparsity and limited sequence length.
+This indicates that **most of the predictive signal is already captured by feature engineering** (lags, rolling statistics, price and promotion effects).
+
+**Classical ML (LightGBM, Random Forest, XGBoost)**
+
+* Strong and stable performance across SKUs
+* LightGBM achieves the best overall trade-off between accuracy and speed
+* Random Forest is computationally expensive with no clear performance gain
+
+**Cluster-based Models**
+
+* Cluster-specific models perform similarly to global models
+* No consistent improvement over global LightGBM
+* Useful conceptually, but benefits depend on SKU heterogeneity and scale
+
+**Deep Learning (LSTM)**
+
+* LSTM underperforms due to sparse sales and long zero periods
+* Hybrid LSTM + LightGBM does not bring clear gains
+* High training and inference cost
+
+### ⚠️ Limitations
+
+* Monthly aggregation may hide short-term demand signals
+* No hierarchical reconciliation across Store / Department / Category
+* Cluster-based modeling increases complexity with limited performance gains
+* Promotions are treated as known future inputs
+
+### 🚀 Future Improvements
+
+* Hierarchical forecasting (bottom-up / top-down)
+* Rolling-window backtesting
+* Probabilistic forecasts (prediction intervals)
+* Scenario simulation for pricing and promotions
+* Advanced SKU clustering (shape-based, DTW)
+
+
